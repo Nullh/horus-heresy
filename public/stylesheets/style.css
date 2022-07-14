@@ -1,8 +1,50 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.title {
+  font-weight: bold;
+  font-size: 3.25vw;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+  text-align: center;
 }
 
-a {
-  color: #00B7FF;
+.rule-title {
+  font-weight: bold;
+  font-size: 3.25vw;
+}
+
+.accordion-collapse {
+  padding-top: 18px;
+}
+
+.flavour {
+  font-style: italic;
+  font-size: 1.5vw;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.source {
+  font-style: italic;
+  font-size: 1vw;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.button {
+  font-weight: bold;
+}
+
+.ruletext {
+  font-size: 2.5vw;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (min-width:1200px) {
+  .container{
+    max-width: 970px;
+  }
 }

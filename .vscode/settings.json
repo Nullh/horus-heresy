@@ -2,5 +2,7 @@
     "appService.zipIgnorePattern": [
         "node_modules{,/**}",
         ".vscode{,/**}"
-    ]
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/96be211c-c7c0-4ca6-8bd7-b46983db6e92/microsoft.web/sites/subscriptions/96be211c-c7c0-4ca6-8bd7-b46983db6e92/resourceGroups/horus-heresy/providers/Microsoft.Web/sites/horusheresy",
+    "appService.deploySubpath": "."
 }
