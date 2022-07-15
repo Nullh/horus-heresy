@@ -48,3 +48,10 @@ body {
     max-width: 970px;
   }
 }
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
