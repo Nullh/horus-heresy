@@ -56,3 +56,11 @@ body {
   display: none;
   z-index: 99;
 }
+
+#btn-collapse {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  z-index: 99;
+  font-size: 1vw;
+}

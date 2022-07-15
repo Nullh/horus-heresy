@@ -1,0 +1,26 @@
+<!-- Back to top button -->
+<button type="button" class="btn btn-light btn-outline-secondary btn-floating btn-sm" id="btn-collapse">
+    Collapse all
+</button>
+
+<script type="text/javascript">
+  //Get the button
+  let collapseButton = document.getElementById("btn-collapse");
+
+  // When the user clicks on the button, scroll to the top of the document
+  collapseButton.addEventListener("click", collapseAll);
+
+  function collapseAll() {
+    let collapsibles = document.getElementsByClassName("accordion-collapse");
+    for (const element of collapsibles){
+        element.classList.remove("show");
+    };
+
+    let titles = document.getElementsByClassName("accordion-button");
+    for (const element of titles){
+        element.classList.add("collapsed");
+        element.setAttribute("aria-expanded", "false");
+    };
+
+}
+</script>
