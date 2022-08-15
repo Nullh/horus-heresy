@@ -28,12 +28,6 @@ async function queryContainer() {
   // Including the partition key value of country in the WHERE filter results in a more efficient query
   const querySpec = {
     query: 'SELECT r.id, r.name, r.flavour, r.text, r.source FROM root r ORDER BY r.name',
-    parameters: [
-      {
-        name: '@country',
-        value: 'USA'
-      }
-    ]
   }
 
   const { resources: results } = await client
